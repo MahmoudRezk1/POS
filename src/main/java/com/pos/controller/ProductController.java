@@ -11,7 +11,7 @@ import java.util.List;
 @RequiredArgsConstructor
 @CrossOrigin
 @RequestMapping(path = "/product")
-public class ProductController {
+public class    ProductController {
     private final ProductService productService;
     @GetMapping
     public List<Product> findAll(){
